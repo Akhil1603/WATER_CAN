@@ -18,6 +18,7 @@ import SubscriptionScreen from '@screens/Subscription/SubscriptionScreen';
 import ProfileScreen from '@screens/Profile/ProfileScreen';
 import HelpSupportScreen from '@screens/Support/HelpSupportScreen';
 import NotificationsScreen from '@screens/Orders/NotificationsScreen';
+import MyOrdersScreen from '@screens/Orders/MyOrdersScreen';
 import ReferralScreen from '@screens/Profile/ReferralScreen';
 import BottleTrackingScreen from '@screens/Profile/BottleTrackingScreen';
 
@@ -40,7 +41,7 @@ function HomeTabs() {
       }}
     >
       <Tab.Screen name="Home" component={HomeScreen} />
-      <Tab.Screen name="Orders" component={NotificationsScreen} />
+      <Tab.Screen name="Orders" component={MyOrdersScreen} />
       <Tab.Screen name="Wallet" component={WalletScreen} />
       <Tab.Screen name="Profile" component={ProfileScreen} />
       <Tab.Screen name="More" component={HelpSupportScreen} />

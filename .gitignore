@@ -1,0 +1,15 @@
+# dependencies
+node_modules
+
+# Expo
+.expo
+.expo-shared
+
+# misc
+*.log
+.DS_Store
+.env
+coverage
+android
+ios
+web-build
